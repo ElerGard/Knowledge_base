@@ -25,15 +25,15 @@ namespace WindowsFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
             Classification form = new Classification();
-            form.Show();
-            this.Hide();
+            form.Show(this);
+            //this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             Rbz form = new Rbz();
-            form.Show();
-            this.Hide();
+            form.Show(this);
+            //this.Hide();
         }
     }
 }

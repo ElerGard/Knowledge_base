@@ -31,7 +31,20 @@ namespace WindowsFormsApp1
 
         private void button5_Click(object sender, EventArgs e)
         {
+            Imposible_properties form = new Imposible_properties();
+            form.Show();
+        }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Properties_for_monsters form = new Properties_for_monsters();
+            form.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form2 form = new Form2();
+            form.Show();
         }
     }
 }
